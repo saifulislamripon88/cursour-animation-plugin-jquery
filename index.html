@@ -13,45 +13,83 @@
     <meta name="author" content="Saiful Islam">
 
     <!-- CSS Links-->
-   <link rel="stylesheet" href="css/jquery.serialcursor.css">
+    <link rel="stylesheet" href="css/lightboxed.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <title>count down plugin</title>
+    <title>lightbox gallery plugin</title>
 
   </head>
   <body>
-      <div class="container">
-        <h1>jQuery SerialCursor Plugin Example</h1>
-        <p class="lead">A jQuery plugin for creating a mouse pointer effect with a perpetual animation.</p>
-      </div>
 
+
+    <!-- <div class="container">
+      <h1>jQuery Lightboxed Plugin Example</h1> -->
+      <!-- <div id="carbon-block" style="margin:30px auto"></div> -->
+      <!-- <img class="lightboxed" rel="group1" src="images/port-1.png" data-link="images/port-1.png" alt="Image Alt"/>
+      <img class="lightboxed" rel="group1" src="images/port-2.png" data-link="images/port-2.png" alt="Image Alt"/>
+      <img class="lightboxed" rel="group1" src="images/port-3.png" data-link="images/port-3.png" alt="Image Alt"/>
+      <img class="lightboxed" rel="group1" src="images/port-4.png" data-link="images/port-4.png" alt="Image Alt"/>
+      <img class="lightboxed" rel="group1" src="images/port-5.png" data-link="images/port-5.png" alt="Image Alt"/>
+      <img class="lightboxed" rel="group1" src="images/port-6.png" data-link="images/port-6.png" alt="Image Alt"/> -->
+
+      
+      <!-- <div id="inline" style="display: none;"><div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #fff;">Some inline content</div></div> -->
+    <!-- </div> -->
+
+    
+<section class="gallery">
+  <div class="container">
+    <h1 class="text-center text-primary">LightBox Gallery Plugin</h1>
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="img_div">
+     <img class="lightboxed" rel="group1" src="images/port-1.png" class="img-fluid" class data-link="images/port-11.png" alt="Image Alt"/> 
+    </div>
+   </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="img_div">
+     <img class="lightboxed" rel="group1" src="images/port-2.png" class="img-fluid" class data-link="images/port-22.png" alt="Image Alt"/> 
+    </div>
+   </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="img_div">
+     <img class="lightboxed" rel="group1" src="images/port-3.png" class="img-fluid" class data-link="images/port-33.png" alt="Image Alt"/> 
+    </div>
+   </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="img_div">
+     <img class="lightboxed" rel="group1" src="images/port-4.png" class="img-fluid" class data-link="images/port-44.png" alt="Image Alt"/> 
+    </div>
+   </div>
+  <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="img_div">
+     <img class="lightboxed" rel="group1" src="images/port-5.png" class="img-fluid" class data-link="images/port-55.png" alt="Image Alt"/> 
+    </div>
+   </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-6">
+   <div class="img_div">
+    <img class="lightboxed" rel="group1" src="images/port-6.png" class="img-fluid" class data-link="images/port-66.png" alt="Image Alt"/> 
+   </div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+     
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
     <script src="js/jquery-3.6.0.min.js"></script>
-    <!--  -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/paper-core.js"></script>
-    <script src="js/simplex-noise.min.js"></script>
-    <script src="js/jquery.serialcursor.js"></script>
-    <!--  -->
-    <!-- <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/lightboxed.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
-    
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-36251023-1']);
-      _gaq.push(['_setDomainName', 'jqueryscript.net']);
-      _gaq.push(['_trackPageview']);
-    
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    
-    </script>
+
 
   </body>
 </html>
